@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../parcial/head.ejs') %>
+    <link href="/css/listProduct.css" rel="stylesheet">
+</head>
+<body>
+    <!-- ----------------------HEADER------------------------------->
+    <%- include('../parcial/header.ejs') %>
+    <!-- ----------------------MAIN------------------------------->
+    <main class="main">
+    <h1>Lista de Productos</h1>
+    <section class="content-section">
+        <% listaProductos.forEach(producto => { %>                
+            <a href="/products/detail/<%= producto.id %>">
+                <article class="content-section-article">
+                    <div class="div__img-producto">
+                        <img src="/img/products/<%= producto.image %>" alt="Imagen" class="img-producto" >
+                    </div>
+                    <div class="content-detalle">
+                        <h4>$<%= producto.price %></h4>
+                        <h4><%= producto.colors %></h4>
+                        <h4><b><%= producto.name %></b></h4>
+                    </div>
+                </article>
+            </a>
+            <% }) %>
+    </section>
+    
+    <!-- <section class="interacciones-main">
+        <div class="interacciones-input">
+            <input type="submit" value="Buscar"><input type="text">
+        </div>
+        <div class="interacciones-input">
+            <input type="submit" value="Editar" >
+        </div>
+        <div class="interacciones-input">
+            <input type="reset" value="Borrar">
+        </div>
+        <div class="interacciones-input">
+            <input type="submit" value="Agregar">
+        </div> <br> <br> <br> <br>
+
+        
+    </section> <br> <br> <br> <br> <br> <br>
+    <section class="content-section">
+        <article class="content-section-article">
+            <div class="div__img-producto">
+                <img src="/img/fotos_torino_1.jpg" alt="imagenCafetera" class="img">
+            </div>
+            <div class="description-article">
+                <h4>Torino 1</h4>
+                <p>$ 150.550</p>
+                <p> Color: Bordó</p>
+                
+            </div>
+        </article> <br>
+        <article class="content-section-article">
+            <div class="div__img-producto">
+                <img src="/img/fotos_torino_3.jpg" alt="imagenCafetera" class="img">
+            </div>
+            <div class="description-article">
+                <h4>Torino 2</h4>
+                <p>$ 500.000</p>
+                <p> Color: Rojo</p>
+            </div>
+        </article> <br>
+        <article class="content-section-article">
+            <div class="div__img-producto">
+                <img src="/img/fotos_torino_4.jpg" alt="imagenCafetera" class="img">
+            </div>
+            <div class="description-article">
+                <h4>torino 3</h4>
+                <p>$ 400.400</p>
+                <p> Color: Blanco</p>
+            </div>
+        </article> <br>
+        <article class="content-section-article">
+            <div class="div__img-producto">
+                <img src="/img/fotos_torino_6.jpg" alt="imagenCafetera" class="img">
+            </div>
+            <div class="description-article">
+                <h4>torino 4</h4>
+                <p>$ 180.000</p>
+                <p>Color: Naranja</p>
+            </div>
+        </article> <br>
+    
+
+    </section> <br> <br> <br> <br> <br> -->
+</main>
+    <!-- ----------------------FOOTER----------------------------- -->
+    <%- include('../parcial/footer.ejs') %>
+</body>
+</html>

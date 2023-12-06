@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color:  #010c05
+}
+
+ img{
+    width: 100%;
+    
+    object-fit: cover;
+} 
+p{
+    overflow: hidden;;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+/* body{
+    background: linear-gradient(90deg, white 0%, #7ec9e7 50%, white 100%);
+} */

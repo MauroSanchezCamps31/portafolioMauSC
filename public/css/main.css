@@ -1,0 +1,212 @@
+@import url(normalize.css);
+@import url(header.css);
+@import url(footer.css);
+.error404{
+    height: 100%;
+    width: 100%;
+}
+/* BANNER INICIO */ 
+.img-banner{
+    object-fit: cover;
+    object-position: center;
+    height: 250px;
+    width: 50%;
+}
+/* .content-banner{
+    position: relative;
+    height: 350px;
+    width: 100%;
+
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.737);
+} */
+.img-banner{
+    object-fit:cover;
+    object-position:center;
+    height: 300px;
+    width: 100%;
+    filter: 85%;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.737);
+}
+.text-banner{
+    
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50%;
+    color: #010c05;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    text-shadow: 2px 2px 2px #212121;
+}
+
+/* PAG INICIO */ 
+
+.main-title{
+    font-size: 32px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-servicios__div{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-color: rgba(15, 185, 21, 0.989);
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #010c05;
+    padding-left: 16px;
+    padding-top: 16px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.content-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+.content-section-article{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0x;
+    /* width: 60%; */
+    background-image: url("/img/MauGreen.png");
+    color: rgb(249, 4, 4);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.737);    
+}
+.iconosHabilidades{
+   text-align: center;
+    justify-content: center;
+}
+
+.iconosHabilidades i {
+    margin:  40px;
+    justify-content: center;
+    transform: scale(0.8);
+    transition: transform 0.3s ease;
+  }
+  
+  .iconosHabilidades i:hover {
+    transform: scale(4.2);
+  }
+
+/* FOTO CARD */ 
+.div__img-producto{ 
+    height: 200px;
+    width: 250px;
+}
+.img-producto{
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /*object-position: left; */
+}
+.direccion{
+    font-size: 1rem;
+}
+/* INFO CARD */ 
+.image-decription__name{
+    font-size: 1.5rem;
+}
+b{
+    font-size: 1rem;
+}
+.image-decription__colors{
+    font-size: 18px;
+}
+.image-decription__precio{
+    font-size: 18px;
+    margin-top: 5px;
+}
+    /* border: solid 1px red; */
+/*     display:block;
+    max-width:100%;
+    
+    height:auto;
+    width: 80%;
+    height: 80%;
+    overflow:hidden; */
+/* } */
+.titulo_1_main{
+    text-align: center;
+    color: rgba(15, 185, 21, 0.989)
+}
+.titulo_2{
+    text-align: center;
+    color: rgba(15, 185, 21, 0.989)
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    color:#fcfdfd
+}
+.parrafo{
+    margin-top: 30px;
+    font-size: 1rem;
+    text-align: center
+}
+@media screen and (min-width:520px){
+/*     .content-banner{
+        height: 400px;
+    } */
+    .content-section{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .content-section-article{
+        width: 280px;
+        height: 350px;
+       /*border: solid 1px red; */
+    }
+    .content {
+        height:30vh;
+    }
+    
+    h1 {
+        font-size:50px;
+    }
+    .content-section-article:hover{
+    -webkit-box-shadow: 0px 0px 14px 5px #444444;
+    -moz-box-shadow: 0px 0px 14px 5px #444444;
+    box-shadow: 0px 0px 14px 5px #444444;
+    transition: 500ms;
+    }
+    .content-servicios{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 60px 0 60px 0;
+    }
+    .content-servicios__div{
+        display: flex;
+        height: 200px;
+        width: 400%;
+        background-color: url("/img/matrix.png");
+        flex-direction: column;
+        flex-wrap: wrap;
+        color: #fcfdfd;
+        padding: 2px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.737);
+        
+    }
+}
+

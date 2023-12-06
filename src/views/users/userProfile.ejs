@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../parcial/head.ejs') %>
+    
+    <link href="/css/userProfile.css" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <%- include('../parcial/header.ejs') %> <br> <br>
+    <main class="userProfile">
+        <div class="profileImage">
+            <img src="/img/avatar/<%= user.image %>">
+        </div>
+<!--    <section class="fotoPerfil">
+                <div class="SubirImagenPerfil">
+            <label for="productImage" class="form-label">Subí tu foto aquí:</label>
+            <input type="file" id="productImage" name="image">
+        </div>
+        </section>  -->
+<!--      <br> <br>
+            <div class="titleUser">
+            <h1> <b> Perfil de usuario <b> </h1>
+                <img src="/img/avatar/%= user.image %>" class="imagenDePerfil">
+            </div> -->
+            
+        <section class="datosUsuario">
+            <h2> <b>Datos Personales</b> </h2> <br>
+            <h3> Nombre:</h3> <%= user.first_name +' '+  user.last_name %> 
+            <h3> Correo Electrónico:</h3> <%= user.email %>  
+            <h3> Fecha De Nacimiento:</h3> <%= user.birth_date %> 
+        </section>
+    </main>
+    <%- include('../parcial/footer.ejs') %>
+</body>
+</html>

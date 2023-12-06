@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%- include('../parcial/head.ejs') %>
+        <link href="/css/login.css" rel="stylesheet">
+    </head>
+
+<body>
+    <%- include('../parcial/header.ejs') %>
+
+<div class="container">
+    <form action="/users/login" method="post" class="form-user-login" id="formulario"><br><br>
+        
+        <div class="card" id="div-content__email">
+            <a class="login">Ingresá!</a>
+            <div class="inputBox">
+                <input name="email" id="input__email" type="email" >
+                <span class="user">Email</span>
+                <p id="cartel-error__email">Email inválido</p>
+                <p id="cartel-error__email2"></p>
+            </div>
+        
+            <div class="inputBox" id="div-content__password">
+                <input name="password"  type="password" id="input__password">
+                <span class="user">Contrasena</span>
+                <p id="cartel-error__password">Tiene que tener mas de 3 caracteres</p>
+                <p id="cartel-error__password2"></p>
+            </div>
+
+            <div class="login-checkbox">
+                <p class="recordar-usuario">Recordar usuario</p>
+                <input type="checkbox" name="remember" id="cbx" style="display: none;">
+                <label for="cbx" class="check">
+                    <svg width="18px" height="18px" viewBox="0 0 18 18">
+                        <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z"></path>
+                        <polyline points="1 9 7 14 15 4"></polyline>
+                    </svg>
+                </label>
+            </div>
+            
+            <!-- Validacion de Email -->
+            <% if (locals.errors && errors.email){ %>
+                <p class="alertError"><%= errors.email.msg %> </p>
+            <% } %>
+                
+            <button type="submit" class="enter">Enviar</button>
+        </div>
+    </form>
+</div>
+
+
+    <%- include('../parcial/footer.ejs') %>
+    <script src="/js/userLogin.js"></script>
+</body>
+</html>

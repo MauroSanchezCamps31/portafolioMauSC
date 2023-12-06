@@ -1,0 +1,241 @@
+[
+ {
+  "id": 1,
+  "first_name": "Alford",
+  "lastName": "acowdry0@sina.com.cn",
+  "email": "acowdry0@dailymail.co.uk",
+  "password": "dCLCPY7pcE",
+  "category": "customer",
+  "image": "Alford Cowdry"
+ },
+ {
+  "id": 2,
+  "first_name": "Glenn",
+  "lastName": "gsantora1@ted.com",
+  "email": "gsantora1@slideshare.net",
+  "password": "8LvU5I9",
+  "category": "admin",
+  "image": "Glenn Santora"
+ },
+ {
+  "id": 3,
+  "first_name": "Reeva",
+  "lastName": "rklulisek2@dropbox.com",
+  "email": "rklulisek2@elpais.com",
+  "password": "Zh8C2R",
+  "category": "admin",
+  "image": "Reeva Klulisek"
+ },
+ {
+  "id": 4,
+  "first_name": "Sayers",
+  "lastName": "sernke3@geocities.jp",
+  "email": "sernke3@netvibes.com",
+  "password": "cjg41nJ",
+  "category": "customer",
+  "image": "Sayers Ernke"
+ },
+ {
+  "id": 5,
+  "first_name": "Yoko",
+  "lastName": "yrubens4@fc2.com",
+  "email": "yrubens4@tinypic.com",
+  "password": "QTlkardF1Ic",
+  "category": "admin",
+  "image": "Yoko Rubens"
+ },
+ {
+  "id": 6,
+  "first_name": "Duane",
+  "lastName": "dwooff5@1und1.de",
+  "email": "dwooff5@wunderground.com",
+  "password": "P9RBs1",
+  "category": "customer",
+  "image": "Duane Wooff"
+ },
+ {
+  "id": 7,
+  "first_name": "Shannan",
+  "lastName": "sixor6@google.ca",
+  "email": "sixor6@hhs.gov",
+  "password": "AurNDHu0QqY8",
+  "category": "customer",
+  "image": "Shannan Ixor"
+ },
+ {
+  "id": 8,
+  "first_name": "Barrie",
+  "lastName": "bvannet7@xing.com",
+  "email": "bvannet7@fda.gov",
+  "password": "ewgEvQitw",
+  "category": "admin",
+  "image": "Barrie Vannet"
+ },
+ {
+  "id": 9,
+  "first_name": "Lucias",
+  "lastName": "lbarok8@ucsd.edu",
+  "email": "lbarok8@liveinternet.ru",
+  "password": "h6msQ6",
+  "category": "customer",
+  "image": "Lucias Barok"
+ },
+ {
+  "id": 10,
+  "first_name": "Gasparo",
+  "lastName": "gvanini9@google.co.uk",
+  "email": "gvanini9@hubpages.com",
+  "password": "1yjbJ7VT8Z",
+  "category": "customer",
+  "image": "Gasparo Vanini"
+ },
+ {
+  "id": 11,
+  "first_name": "Ronna",
+  "lastName": "rbardeya@soundcloud.com",
+  "email": "rbardeya@yelp.com",
+  "password": "9TDEBX",
+  "category": "admin",
+  "image": "Ronna Bardey"
+ },
+ {
+  "id": 12,
+  "first_name": "Rabbi",
+  "lastName": "rjackwaysb@1688.com",
+  "email": "rjackwaysb@spiegel.de",
+  "password": "WtTBE3",
+  "category": "customer",
+  "image": "Rabbi Jackways"
+ },
+ {
+  "id": 13,
+  "first_name": "Rozella",
+  "lastName": "rgillmorc@ihg.com",
+  "email": "rgillmorc@amazon.co.uk",
+  "password": "EqKyHXWa8jY",
+  "category": "admin",
+  "image": "Rozella Gillmor"
+ },
+ {
+  "id": 14,
+  "first_name": "Rourke",
+  "lastName": "rfrancomd@wp.com",
+  "email": "rfrancomd@reverbnation.com",
+  "password": "lmFGCKLIC",
+  "category": "customer",
+  "image": "Rourke Francom"
+ },
+ {
+  "id": 15,
+  "first_name": "Domeniga",
+  "lastName": "dlystone@ft.com",
+  "email": "dlystone@huffingtonpost.com",
+  "password": "tvSwxoWhS",
+  "category": "admin",
+  "image": "Domeniga Lyston"
+ },
+ {
+  "id": 16,
+  "first_name": "Seamus",
+  "lastName": "smattesf@delicious.com",
+  "email": "smattesf@opera.com",
+  "password": "6KJxaz9",
+  "category": "customer",
+  "image": "Seamus Mattes"
+ },
+ {
+  "id": 17,
+  "first_name": "Malvin",
+  "lastName": "mseemang@seattletimes.com",
+  "email": "mseemang@about.me",
+  "password": "QPGGO3x6",
+  "category": "customer",
+  "image": "Malvin Seeman"
+ },
+ {
+  "id": 18,
+  "first_name": "Daphna",
+  "lastName": "dlabrenzh@google.com.br",
+  "email": "dlabrenzh@adobe.com",
+  "password": "pRVBa0FDJ7tw",
+  "category": "admin",
+  "image": "Daphna Labrenz"
+ },
+ {
+  "id": 19,
+  "firstName": "ghhg",
+  "password": "$2a$10$17/zaUTFz2MbUynaz5RXSeHNrJVwlSCfd0wtyV5pAE90dnNG07fjS",
+  "email": "ghugh",
+  "image": ""
+ },
+ {
+  "id": 20,
+  "firstName": "tu amma ese la come",
+  "password": "$2a$10$X0Owv1e7vo.Y2E3h.w2KxeP.Z1w7iHDK1Qa6owlvVFg4R3GPSe4jK",
+  "email": "tumama",
+  "image": ""
+ },
+ {
+  "id": 21,
+  "firstName": "a",
+  "password": "$2a$10$o0QN6UvJ8r9CueIfLvTZjOiktPJwPqqrcT7rCUMVLZSHj4ERSJdqS",
+  "email": "aa",
+  "image": ""
+ },
+ {
+  "id": 22,
+  "firstName": "sebastian",
+  "password": "$2a$10$Uk/vGrYjmftFMsBEVNpBW.WPJgYSvLHSNGhz5EMo8nUjDNwcC3cVm",
+  "email": "sebastian@sebastian.com",
+  "image": ""
+ },
+ {
+  "id": 23,
+  "firstName": "Sergio",
+  "password": "$2a$10$DhKPCoHR6PDF6zSd9SL62..Ce3ojAUHSOiIpwo.lFAVZvnt7MCByG",
+  "email": "asd@asd.com",
+  "image": "avatar.jpg"
+ },
+ {
+  "id": 25,
+  "firstName": "Franco Sanchez",
+  "email": "francosanchezcamps.100@gmail.com",
+  "password": "$2a$10$3/Skelfpd4aVqy6sVzfuGufrA.sRqF5bRIHDwlKWe3KfMpy9KR5Oi",
+  "image": "image-1676645626699.png"
+ },
+ {
+  "id": 26,
+  "firstName": "Franco Sanchez",
+  "email": "francosanchezcamps.100@gmail.com",
+  "password": "$2a$10$wqqtrzUT1H3awL9gGdUxgeNNx19TGnn0uX8Q8x43WxPcKf3TTtCZe",
+  "image": "image-1676645867631.png"
+ },
+ {
+  "id": 27,
+  "firstName": "Franco Sanchez",
+  "email": "francosanchezcamps.100@gmail.com",
+  "password": "$2a$10$4ANUagEa93GKr1VChzKN..4hkCZNCgXuLlvhM4pvo.jL7JoLxq34O",
+  "image": "image-1676647446906.png"
+ },
+ {
+  "id": 28,
+  "firstName": "Thomás@gmail.com",
+  "email": "Thomás@gmail.com",
+  "password": "$2a$10$95rqhkJGItt6k2bxlRVtZOvLKu8q/xb.cBiRrkVcF4FMBd.bLAwAq",
+  "image": "image-1676662265178.png"
+ },
+ {
+  "id": 29,
+  "firstName": "tomasmanco",
+  "email": "tomasmanco@gmail.com",
+  "password": "$2a$10$a1gBt0UPpAlmwvyURUGrouCVkuptzciRtodhYBTuhX7ZLhXbsYGau",
+  "image": "image-1676662301377.png"
+ },
+ {
+  "id": 30,
+  "firstName": "MauroSC",
+  "email": "maurosanchezc94@gmail.com",
+  "password": "$2a$10$Ol4mxKMJ6CkBATe7Q46MQunHZbcscLwYFNRN5vbdBFHPVh6nyDUg6",
+  "image": "image-1676860678220.jpeg"
+ }
+]

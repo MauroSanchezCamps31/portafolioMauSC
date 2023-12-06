@@ -1,0 +1,17 @@
+@import url(header.css);
+@import url(footer.css);
+@import url(normalize.css);
+@import url(normalize.css);
+@import url(header.css);
+@import url(footer.css);
+
+.content-ver-categoria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ver-categoria{
+    width: 250px;
+    height: 50px;
+}

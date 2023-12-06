@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <%- include('./parcial/head.ejs') %>
+        <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <%- include('./parcial/header.ejs') %>
+    <!-- Sedan -->
+    <!-- <div class="">
+        <img src="/img/matrix.png" class="img-banner">
+    </div>  -->
+    <div class="content-servicios">
+        <div class="content-servicios__div">           
+            <!-- <i class="fa fa-users ico"></i> -->
+            <h2>SOBRE MI</h2>
+            <p class="parrafo">Soy un desarrollador Web, buscando nuevas experiencias en el rubro. Me considero a mi mismo como una persona autodidacta e innovadora. Desaría poder contribuir en el empresa en la posición correspondiente a mi perfil
+            Tome un curso de desarrollador Full Stack en igital House de 8 meses y mi nivel de ingles es avanzado. Me gusta la tecnología, el fútbol, la música, la pólitica y la economía. </p>
+            <!-- <a href="/"><i class="fa fa-angle-right"></i> Conoceme</a> -->
+        </div>
+        <div class="content-servicios__div">
+            <!-- <i class="fa fa-car ico"></i> -->
+            <h2>Habilidades</h2>
+            
+            <p class="parrafo">JAVASCRIPT - NODE.JS - EXPRESS - HTML - CSS - SQL - API REACT - REST - MVC - GIT - EXCEL</p>
+            <!-- <a href="/product/list"><i class="fa fa-angle-right"></i> Ver modelos</a> -->
+            <div class="iconosHabilidades">
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-python"></i>
+                <i class="fa-solid fa-database"></i>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+        </div>
+    </div>
+    <div class="">
+        <img src="/img/matrix.png" class="img-banner">
+    </div> 
+
+    <!-- <h2 class="h2">Proyectos Destacados</h2>
+    <section class="content-section">   
+        <% productos.forEach(producto=> { %> 
+            <a href="/product/list/<%= producto.id_product %>">
+                <article class="content-section-article">
+                            <div class="div__img-producto">
+                                <img src="/img/products/<%= producto.image %>" alt="Imagen" class="img-producto">
+                            </div>
+                            <div class="content-detalle">
+                                <h4 class="image-decription__name"><%= producto.name %></h4>
+                                <h4 class="image-decription__colors"><%= producto.colors %></h4>
+                                <h4 class="image-decription__precio"><b>$<%= producto.price  %></b></h4>
+                            </div>
+                        </article>
+                    </a>
+    <% }) %>
+    </section> -->
+    </main>
+        <%- include('./parcial/footer.ejs') %>
+</body>
+</html>

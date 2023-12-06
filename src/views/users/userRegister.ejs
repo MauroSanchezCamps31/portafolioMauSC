@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('../parcial/head.ejs') %>
+    <link href="/css/userRegister.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- header -->
+    <%- include('../parcial/header.ejs') %>
+
+    
+    <form action="/users/register" method="POST" class="form" enctype="multipart/form-data">
+      <div class="container">
+        
+        <div class="card">
+          <a class="login">Registrate!</a>
+          <ul class="errors alert-warning"></ul>
+      <div class="inputBox">
+        <input name="firstName" id="firstName" type="text" 
+        value="<%= locals.oldData ? oldData.firstName : null %>">
+        <span class="user">Nombre</span>
+        <!-- Validacion -->
+        <% if (locals.errors && errors.firstName){ %>
+          <p class="alertError"><%= errors.firstName.msg %> </p>
+          <% } %>
+      </div>
+
+      <div class="inputBox">
+        <input name="lastName" id="lastName" type="text" 
+        value="<%= locals.oldData ? oldData.lastName : null %>">
+        <span class="user">Apellido</span>
+        <!-- Validacion -->
+        <% if (locals.errors && errors.lastName){ %>
+          <p class="alertError"><%= errors.lastName.msg %> </p>
+          <% } %>
+      </div>
+
+      <div class="inputBox">
+        <input name="email" id="email" type="email" > 
+        <span class="user">Email</span>
+        <!-- Validacion -->
+        <% if (locals.errors && errors.email){ %>
+          <p class="alertError"><%= errors.email.msg %> </p>
+          <% } %>
+      </div>
+
+      <div class="inputBox">
+        <input name="password" id="password" type="password" >
+        <span class="user">Contraseña</span>
+        <!-- Validacion -->
+        <% if (locals.errors && errors.password){ %>
+          <p class="alertError"><%= errors.password.msg %> </p>
+          <% } %>
+      </div>
+
+      <div class="inputBox">
+        <input name="passwordValidate" id="passwordValidate" type="password" >
+        <span class="user">Repetir Contraseña</span>
+        <!-- Validacion -->
+        <% if (locals.errors && errors.passwordValidate){ %>
+          <p class="alertError"><%= errors.passwordValidate.msg %> </p>
+          <% } %>
+        
+      </div>
+
+      <div class="inputBox">
+        <input name="birth_date" id="birth_date" type="date" >
+        <!-- Validacion -->
+        <% if (locals.errors && errors.birth_date){ %>
+          <p class="alertError"><%= errors.birth_date.msg %> </p>
+          <% } %>
+      </div>
+      <div class="inputBox">
+        <input name="image" id="image" type="file">
+        <!-- Validacion -->
+        <% if (locals.errors && errors.image){ %>
+          <p class="alertError"><%= errors.image.msg %> </p>
+          <% } %>
+      </div>
+
+      <button type="submit" class="enter">Enviar</button>
+    </div>
+  </div>
+</form>
+
+    <!-- script para el form -->
+    <script src="/js/userRegisterValidator.js"></script>
+    
+    <!-- footer -->
+
+    <%- include('../parcial/footer.ejs') %>
+  </body>
+</html>
+
+
+
+    <!-- <main class="register-form">
+      <h1 class="register-title">Registro</h1>
+      <ul class="errores alert-warning"></ul>
+      <form action="/users/register" method="post" class="form">
+          <input class="register-input" type="text" name="firstName" id="name" placeholder="Nombre" />
+
+          <input type="text" name="lastName" id="last_name" class="register-input" placeholder="Apellido"/>
+
+          <input type="email" name="email" id="email" class="register-input" placeholder="Email"/>
+
+          <input type="password" name="password" id="password" class="register-input" placeholder="Contrasena" />
+
+          <input type="date" name="birth_date" id="mail" class="register-input" placeholder="Fecha de Nacimiento"/>
+
+          <input type="file" name="image" id="image" class="register-input" />
+
+
+        <button class="btn-form" type="submit">Enviar formulario</button>
+      </form>  required="required"
+    </main> -->

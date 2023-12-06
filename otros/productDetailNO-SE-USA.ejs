@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../parcial/head.ejs') %>
+    <link href="/css/productDetail.css" rel="stylesheet">
+</head>
+<body>
+        <!-- ----------------------HEADER----------------------------- -->
+    <%- include('../parcial/header.ejs') %>
+        <!-- ----------------------HEADER----------------------------- -->
+    <div class="content">
+        <h1 class="name_product"><%= producto.name %></h1>
+        <div class="content-img-list">
+            <div class="conten-img">
+                <img src="/img/products/<%= producto.image %>" alt="imagenAuto" class="img">
+            </div>
+            <ul class="listaDeDetalle">
+                <li class="listaDeDetalle-li"><%= producto.name %></li>
+                <li class="listaDeDetalle-li">$<%= producto.price %></li>
+                <li class="listaDeDetalle-li"><%= producto.colors %></li>
+                <li class="listaDeDetalle-li"><%= producto.description %> </li>
+            </ul>
+        </div>
+        
+        <a href="/products/productCart" class="action-button_edit">COMPRAR</a>
+        <% if (locals.isLogged) { %>    
+            <a href="/products/list" class="action-button_edit">LISTA DE TODOS LOS PRODUCTOS</a>
+            <a href="/products/edit/<%= producto.id %>" class="action-button_edit">EDITAR PRODUCTO</a>
+            <a href="/products/create" class="action-button_edit">CREAR NUEVA PUBLICACION</a>
+            <form action="/products/delete/<%= producto.id %>?_method=DELETE" method="POST" >
+                <button type="submit" class="form-button">ELIMINAR</button>
+            </form>
+        <% } %>
+        
+    </div>
+    
+    <!-- ----------------------FOOTER----------------------------- -->
+    <%- include('../parcial/footer.ejs') %>
+</body>
+</html>
