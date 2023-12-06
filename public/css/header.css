@@ -184,6 +184,7 @@
         justify-content: space-around;
     }
     .content-navBar{
+        overflow: hidden;
         display: flex;
         flex-direction: row;
         justify-content: space-around;

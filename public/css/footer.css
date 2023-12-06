@@ -154,6 +154,8 @@ iframe{
     padding: 5px;
     margin: 5px;
 }
+
+
 @media screen and (min-width:700px){
   .content-servicios__div-footer {
     display: flex;
