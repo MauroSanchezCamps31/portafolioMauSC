@@ -58,16 +58,18 @@
 }
 .content-servicios__div{
     display: flex;
-    height: 200px;
-    width: 100%;
+    height: auto;
+    width: auto;
     background-color: rgba(15, 185, 21, 0.989);
     flex-direction: column;
     flex-wrap: wrap;
-    color: #010c05;
+    color: #ffffff;
     padding-left: 16px;
     padding-top: 16px;
     margin: 10px;
     border-radius: 10px;
+    
+    
 }
 .content-section{
     display: flex;
@@ -76,10 +78,12 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: 30px;
+    
+    
 }
 .content-section-article{
-    width: 250px;
-    height: 300px;
+    width: auto;
+    height: auto;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -91,7 +95,9 @@
     background-image: url("/img/MauGreen.png");
     color: rgb(249, 4, 4);
     border-radius: 10px;
-    box-shadow: 0px 0px 20px 0px rgba(15, 185, 21, 5);    
+    box-shadow: 0px 0px 20px 0px rgba(15, 185, 21, 5); 
+    max-width: 90%;  
+    
 }
 .iconosHabilidades{
    text-align: center;
@@ -171,14 +177,94 @@ h2{
 .parrafo{
     margin-top: 30px;
     font-size: 1.5rem;
-    text-align: center
+    text-align: center;
+    max-width: 95%;
+    overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.imgsproy{
+    margin: 50px;
+    padding: 50px;
+    border-radius: 2.5%;
+    box-shadow: 0 0 10px 2px rgba(15, 185, 21, 0.989);
+    background-color: rgba(15, 185, 21, 0.989)
+}
+
+.imgsproy:hover{
+    background-color: #ffffff;
+    box-shadow: 0 0 50px 25px rgba(15, 185, 21, 0.989);
+
+}
+.titulo-proyectos{
+    color: #000000;
+}
+
+ 
+.contenedor-proy{
+    border: 5px solid #4000ff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+
+.contenedor-proy2{
+    color: #fcfdfd;
+    border-radius: 2.5%;
+    box-shadow: 0 0 50px 25px rgba(15, 185, 21, 0.989);
+    background-color: #000000;
+    overflow: hidden;
+}
+.imgproy{
+    color: #fcfdfd;
+    border: 5px solid #ff0000;
+    margin-top: 20%;
+    margin-left: 50%;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    
+}
+
+.imgproy3{
+    color: #fcfdfd;
+    border: 5px solid #00d0ff;
+    background-color: rgba(15, 185, 21, 0.989);
+    float: left;
+    width: 48%;
+    margin: 5px;
+    }
+
+    .imgproy4{
+        color: #fcfdfd;
+        border: 5px solid #00d0ff;
+        background-color: rgba(15, 185, 21, 0.989);
+        float: right;
+        width: 48%;
+        margin: 5px;
+        
+    }
+.textproyect{
+    color: #ffffff;
+    float: left;
+    width: 50%;
+    margin-top: 20%;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px
+    
+
 }
 @media screen and (min-width:520px){
 
     .parrafo{
     margin-top: 30px;
     font-size: 1.5rem;
-    text-align: center
+    text-align: center;
+    max-width: 95%;
+    overflow: hidden;
+  text-overflow: ellipsis;
+    
     }
     
 /*     .content-banner{
@@ -212,17 +298,18 @@ h2{
     transition: 500ms;
     }
     .content-servicios{
-        
+        text-align: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
         margin: 60px 0 60px 0;
+        max-width: 100%
     }
     .content-servicios__div{
         display: flex;
-        height: 200px;
-        width: 400%;
+        height: auto;
+        width: auto;
         background-color: url("/img/matrix.png");
         flex-direction: column;
         flex-wrap: wrap;
@@ -230,10 +317,20 @@ h2{
         padding: 2px;
         box-shadow: 0px 0px 10px 0px rgba(15, 185, 21, 5);
         justify-content: center;
+        max-width: 95%
         
     }
     .content-servicios__div:hover {
         transform: scale(1.02);
       }
+      .imgsproy{
+        margin-top: 45px;
+        padding: 20px;
+        
+    }
+    .imgproy{
+        margin-top: 20%;
+        border: 5px solid #ff0000;
 }
 
+}
