@@ -60,13 +60,11 @@
     display: flex;
     height: auto;
     width: auto;
-    background-color: rgba(15, 185, 21, 0.989);
+    background-color: #010c05;
     flex-direction: column;
     flex-wrap: wrap;
     color: #ffffff;
-    padding-left: 16px;
-    padding-top: 16px;
-    margin: 10px;
+    margin-top: 10px;
     border-radius: 10px;
     
     
@@ -93,7 +91,7 @@
     padding: 0x;
     /* width: 60%; */
     background-image: url("/img/MauGreen.png");
-    color: rgb(249, 4, 4);
+    color: rgba(15, 185, 21, 0.989);
     border-radius: 10px;
     box-shadow: 0px 0px 20px 0px rgba(15, 185, 21, 5); 
     max-width: 90%;  
@@ -184,17 +182,16 @@ h2{
 }
 
 .imgsproy{
-    margin: 50px;
-    padding: 50px;
+    max-width: 55%;
     border-radius: 2.5%;
     box-shadow: 0 0 10px 2px rgba(15, 185, 21, 0.989);
-    background-color: rgba(15, 185, 21, 0.989)
+    background-color: #010c05
 }
 
 .imgsproy:hover{
     background-color: #ffffff;
     box-shadow: 0 0 50px 25px rgba(15, 185, 21, 0.989);
-
+    transform: scale(1.05);
 }
 .titulo-proyectos{
     color: #000000;
@@ -202,23 +199,35 @@ h2{
 
  
 .contenedor-proy{
-    border: 5px solid #4000ff;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    color: #fcfdfd;
+    border-radius: 2.5%;
+    box-shadow: 0 0 50px 25px rgba(15, 185, 21, 0.989);
+    background-color: #010c05;
     overflow: hidden;
+    margin: 35px;
+    
+   
 }
 
+.contenedor-proy:hover {
+    transform: scale(1.08);
 
+}
 .contenedor-proy2{
     color: #fcfdfd;
     border-radius: 2.5%;
     box-shadow: 0 0 50px 25px rgba(15, 185, 21, 0.989);
-    background-color: #000000;
+    background-color: #010c05;
     overflow: hidden;
+    margin: 35px;
+}
+.contenedor-proy2:hover {
+    transform: scale(1.08);
+
 }
 .imgproy{
     color: #fcfdfd;
-    border: 5px solid #ff0000;
+    box-shadow: 0px 0px 5px 5px ;
     margin-top: 20%;
     margin-left: 50%;
     margin-bottom: 25px;
@@ -228,20 +237,20 @@ h2{
 
 .imgproy3{
     color: #fcfdfd;
-    border: 5px solid #00d0ff;
+    box-shadow: 0px 0px 5px 5px ;
     background-color: rgba(15, 185, 21, 0.989);
     float: left;
     width: 48%;
-    margin: 5px;
+    margin: 2px;
     }
 
     .imgproy4{
         color: #fcfdfd;
-        border: 5px solid #00d0ff;
+        box-shadow: 0px 0px 5px 5px ;
         background-color: rgba(15, 185, 21, 0.989);
         float: right;
         width: 48%;
-        margin: 5px;
+        margin: 2px;
         
     }
 .textproyect{
@@ -249,11 +258,17 @@ h2{
     float: left;
     width: 50%;
     margin-top: 20%;
+
     padding: 10px;
     padding-left: 25px;
     padding-right: 25px
     
 
+}
+
+.textproyect2{
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 @media screen and (min-width:520px){
 
@@ -309,8 +324,8 @@ h2{
     .content-servicios__div{
         display: flex;
         height: auto;
-        width: auto;
-        background-color: url("/img/matrix.png");
+        width: 100%;
+       
         flex-direction: column;
         flex-wrap: wrap;
         color: #fcfdfd;
@@ -325,12 +340,11 @@ h2{
       }
       .imgsproy{
         margin-top: 45px;
-        padding: 20px;
-        
+        box-shadow: 0px 0px 10px 0px 
     }
     .imgproy{
         margin-top: 20%;
-        border: 5px solid #ff0000;
+        box-shadow: 0px 0px 5px 5px ;
 }
 
 }
