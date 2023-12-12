@@ -66,6 +66,7 @@
     color: #ffffff;
     margin-top: 10px;
     border-radius: 10px;
+    margin-bottom: 45px;
     
     
 }
@@ -179,6 +180,7 @@ h2{
     max-width: 95%;
     overflow: hidden;
   text-overflow: ellipsis;
+  margin-bottom: 20px;
 }
 
 .imgsproy{
@@ -193,15 +195,26 @@ h2{
     box-shadow: 0 0 50px 25px rgba(15, 185, 21, 0.989);
     transform: scale(1.05);
 }
-.titulo-proyectos{
-    color: #000000;
+.titulo-proyectos{  
+     text-align: center;
+    font-size: 2rem;
+    color:#082200;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+
+.titulo-proyectos:hover {
+text-decoration:dashed;
+
 }
 
  
 .contenedor-proy{
     color: #fcfdfd;
     border-radius: 2.5%;
-    box-shadow: 0 0 50px 25px rgba(15, 185, 21, 0.989);
+    box-shadow: 0 0 20px 5px rgba(15, 185, 21, 0.989);
     background-color: #010c05;
     overflow: hidden;
     margin: 35px;
@@ -216,7 +229,7 @@ h2{
 .contenedor-proy2{
     color: #fcfdfd;
     border-radius: 2.5%;
-    box-shadow: 0 0 50px 25px rgba(15, 185, 21, 0.989);
+    box-shadow: 0 0 20px 5px rgba(15, 185, 21, 0.989);
     background-color: #010c05;
     overflow: hidden;
     margin: 35px;
@@ -235,6 +248,9 @@ h2{
     
 }
 
+.imgproy:hover {
+    transform: scale(1.08);
+}
 .imgproy3{
     color: #fcfdfd;
     box-shadow: 0px 0px 5px 5px ;
@@ -242,6 +258,11 @@ h2{
     float: left;
     width: 48%;
     margin: 2px;
+    margin-top: 30px;
+    }
+
+    .imgproy3:hover {
+        transform: scale(1.08);
     }
 
     .imgproy4{
@@ -251,7 +272,11 @@ h2{
         float: right;
         width: 48%;
         margin: 2px;
-        
+        margin-top: 30px;
+    }
+
+    .imgproy4:hover {
+        transform: scale(1.08);
     }
 .textproyect{
     color: #ffffff;
@@ -268,7 +293,19 @@ h2{
 
 .textproyect2{
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
+    
+}
+
+.titulos_text{
+   
+    margin-top: 15px;
+    margin-bottom: 8px;
+    border-bottom: 3px solid #082200;
+    padding-bottom: 15px;
+    
+
+
 }
 @media screen and (min-width:520px){
 
